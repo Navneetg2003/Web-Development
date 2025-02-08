@@ -4,23 +4,6 @@ Welcome to my **Web Development Projects** repository! This repo contains variou
 
 ## 📂 Project List  
 
-<<<<<<< HEAD
-| Project Name | Description | Link |
-|-------------|------------|------|
-| **Netflix Clone** | A simple Netflix homepage UI using HTML & CSS. | [View](./51-Netflix%20clone/) |
-| **CSS Grid Layout** | Example demonstrating CSS Grid properties. | [View](./39-CSS%20Grid/) |
-| **Flexbox Navbar** | A responsive navbar using Flexbox. | [View](./41-Exercise%206%20-%20Navbar%20using%20Flexbox/) |
-| **CSS Animations** | Various animation effects using CSS. | [View](./46-CSS%20Animations/) |
-| **Faulty Calculator** | A JavaScript project that introduces random errors for fun. | [View](./59-Exercise%209%20-%20Faulty%20Calculator/) |
-| **Business Name Generator** | Generates business names using JavaScript. | [View](./62-JavaScript%20Exercise%2010%20Business%20Name%20Generator/) |
-| **Object-fit & Object-cover** | Demonstrates how `object-fit` and `object-cover` work in CSS. | [View](./49-CSS%20Object-fit%20and%20Object-cover/) |
-
-## 🎯 Purpose
-This repository serves as:
-- A **learning resource** for beginners.
-- A **reference guide** for HTML, CSS, and JavaScript projects.
-- A collection of **small projects** that helped me strengthen my frontend skills.
-=======
 | #  | Project Name | Description | Link |
 |----|-------------|-------------|------|
 | 1  | Project 1 | A simple web page using HTML & CSS. | [View](./1) |
@@ -75,7 +58,6 @@ This repository serves as:
 | 60 | JavaScript Strings | String manipulation methods in JS. | [View](./60-JavaScript%20Strings) |
 | 62 | JavaScript Exercise 10 Business Name Generator | JS project for generating business names. | [View](./62-JavaScript%20Exercise%2010%20Business%20Name%20Generator) |
 | 85 | Backend, Node.js & npm | Introduction to backend and npm. | [View](./85-Backend,%20Node.js%20&%20npm) |
->>>>>>> 3d32134 (Updated HTML and CSS files with recent changes)
 
 ## 📌 How to Use?
 1. Clone the repository:  
