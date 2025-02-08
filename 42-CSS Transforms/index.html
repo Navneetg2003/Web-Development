@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: beige;
+            border: 2px solid black;
+            transform-origin: -50% -50%;
+
+            /* transform: rotate(40deg); */
+            /* transform: rotate(0.5turn); */
+            /* 1turn = 360deg */
+            /* transform: rotatez(2deg); *//*This makes the object tuen about the axis*/
+
+            /* transform: scale(1.5);
+            transform: scalex(2); */  /*scale function is used to increade the size*/
+
+            /* transform: skew(5deg); */
+            /* transform: skewx(50deg); */
+            /* transform: skewy(5deg); */
+
+            /* transform: translateY(100%) skewX(40deg) translateX(45%); */
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>

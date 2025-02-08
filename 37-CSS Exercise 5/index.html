@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header{
+        position: sticky;
+        top: 0;
+      }
+      nav {
+        background-color: blueviolet;
+        z-index: 1000;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+      }
+      ul li {
+        padding: 25px;
+      }
+      a {
+        color: aqua;
+      }
+      .container {
+        border: 2px solid green;
+        margin: 20px;
+        height: 80vh;
+        background-color: green;
+        display: flex;
+        padding: 20px;
+      }
+      .sec {
+        border: 2px solid peru;
+        width: 50%;
+        margin: 20px;
+      }
+      .sec1{
+        background-color: pink;
+      }
+      .sec2{
+        background-color: rgb(55, 158, 214);
+      }
+      .tab {
+        border: 4px solid black;
+        border-radius: 60px;
+        height: fit-content;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+      }
+      footer {
+        background-color: blueviolet;
+        height: 15vh;
+      }
+      .orange-box{
+        height: 32px;
+        width: 32px;
+        background-color: orange;
+        position: fixed;
+        bottom: 12px;
+        right: 23px;
+        border-radius: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About Us</a></li>
+          <li><a href="/">Contact Us</a></li>
+          <li><a href="/">F&Qs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <section class="sec sec1"></section>
+        <section class="sec sec2"></section>
+      </div>
+    </main>
+    <section class="tab">Welcome to this Sigma Web Development Express</section>
+    <br />
+    <div class="orange-box"></div>
+    <footer>
+      <div></div>
+    </footer>
+  </body>
+</html>

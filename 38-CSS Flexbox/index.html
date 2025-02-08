@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <style>
+      .container {
+        border: 2px solid red;
+        display: flex;
+        height: 80vh;
+        /* justify-content: center; justify-content works in refference to the main axis (you can reffer the main and cross axis for the flex direction from the image) */
+        align-items: center; /*It is used when we have only 1 line*/
+        /* flex-direction: column; */
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        /* align-content: flex-start; It is used when we have only multiple line */
+        /*There is no justify-item in flexbox*/
+        flex-flow: row wrap;
+        /* gap: 30px; */
+        /* row-gap: 40px;
+        column-gap: 30px; */
+        gap: 40px 10px; /*40=row gap && 10=colmn*/
+      }
+      .item {
+        height: 92px;
+        width: 92px;
+        background-color: blueviolet;
+        border: 2px solid black;
+        /* margin: 4px; */
+        color: aliceblue;
+        flex-grow: 1;
+        flex-shrink:1;
+      }
+      .item1{
+        /* flex-grow: 2;
+        flex-shrink:2; */
+        align-self: flex-end;
+      }
+
+      .order-1{
+        order:1;
+      }
+      .order-2{
+        order:2;
+      }
+      .order-3{
+        order:3;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="item item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item order-1">4</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+    </main>
+  </body>
+</html>
